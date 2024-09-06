@@ -110,5 +110,5 @@ if (!class_exists('MooCommunities')) {
     }
 }
 
-$MooCommunities = MooProducts::getInstance();
+$MooCommunities = MooCommunities::getInstance();
 $MooCommunities->init();
